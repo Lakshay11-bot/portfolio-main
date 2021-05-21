@@ -1,0 +1,32 @@
+.about{
+    background-color: #85CDCA;
+    min-height:600px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    &_text{
+        padding:70px 40px 0 40px;
+        
+    }
+
+    &_image{
+        height:500px;
+        width: 450px;
+        @media (max-width:400px){
+            
+            width:300px;
+        }
+    }
+
+    h1{
+        font-size: 80px;
+        font-weight: 400;
+    }
+    p{
+        font-size: 24px;
+        text-transform: capitalize !important;
+    }
+}
+
+
