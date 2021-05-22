@@ -118,7 +118,7 @@ a:hover {
   float: left;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 420px) {
   .landing_page_text {
     margin-right: 0;
   }
